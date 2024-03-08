@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Teko", sans-serif;
+  color: #333;
+  background-color: #000000;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #1a0ba1;
+}
+.navbar h1 {
+  color: #612096;
+}
+.navbar .navigationField {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 14px;
+  color: #612096
+}
+.navbar a:hover {
+  color: #ffffff;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.Login h3{
+  color: #37a53d;
+  display: flex;
+  justify-content: center; /* Center children horizontally */
+  align-items: center; /* Center children vertically */
+}
+
+.inputUsername{
+  color: #612096;
+  font-size: large;
+  padding:20px 50px;
+  margin: 200px 10px 50px 31%
+}
+
+.inputComment{
+  color: #612096;
+  font-size: large;
+  padding:20px 50px;
+  margin: 200px 10px 0px 0px
+}
+
+.loginButton{
+  background-color: #612096;
+  
+  color: white;
+  margin: 10px;
+  padding: 20px 100px;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.comments {
+  padding: 50px 0% 0% 40%;
+}
+
+.comments h2{
+  color:#612096
+  
+}
+
+.comments li{
+  color:#612096 ;
+  font-size: 20px;
+  padding: 0px 10px 5px 5px;
+}
