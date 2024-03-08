@@ -1,3 +1,3 @@
-SET host=localhost
-SET user=laughugin
-SET password=andrey...03
+SET host=
+SET user=
+SET password=
